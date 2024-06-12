@@ -1,0 +1,22 @@
+.info1{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+
+.info1card{
+    background: rgb(248, 249, 250);
+    margin: 1em;
+    text-align: center;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 8px rgba(34, 37, 31, 0.2);
+}
+
+h4{
+    margin-top: 1em;
+}
+
+.cardInfo{
+    font-size: 1.5em;
+}
