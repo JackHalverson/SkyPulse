@@ -2,6 +2,10 @@
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
 }
+.info2{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
 
 .info1card{
     background: rgb(248, 249, 250);
@@ -11,6 +15,14 @@
     display: flex;
     flex-direction: column;
     box-shadow: 2px 2px 8px rgba(34, 37, 31, 0.2);
+}
+
+.info2card{
+    margin: 1em;
+    text-align: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
 }
 
 h4{
